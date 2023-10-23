@@ -5,8 +5,53 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 14px;
+}
 
 /* ------------------------- header ------------------------- */
+header {
+    width: 100%;
+    /* debug */
+    min-height: 600px;
+    background-color: rgb(99, 234, 255);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    /* debug */
+    min-height: 60px;
+    background-color: rgb(232, 232, 232);
+}
+
+#left-nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    /* debug */
+    background-color: yellow;
+    min-height: 60px;
+}
+
+#right-nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    /* debug */
+    background-color: rgb(153, 250, 153);
+    height: 60px;
+}
+
+
+#jumbotron-section {
+    width: 100%;
+    /* debug */
+    background-color: orange;
+    min-height: 540px;
+}
+
+
 
 
 
