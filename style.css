@@ -16,6 +16,7 @@ html, body {
 /* ------------------------- header ------------------------- */
 header {
     width: 100%;
+    background-color: #B4D0E7;
     /* debug
     min-height: 600px;
     background-color: rgb(99, 234, 255); */
@@ -25,8 +26,7 @@ nav {
     width: 100%;
     display: flex;
     min-height: 60px;
-    /* debug
-    background-color: rgb(232, 232, 232); */
+    background-color: white;
 }
 
 #left-nav {
@@ -81,6 +81,7 @@ header a {
     padding-bottom: 4px;
     border: none;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .short-button {
@@ -89,15 +90,50 @@ header a {
 }
 
 #jumbotron-section {
-    width: 100%;
+    width: 70%;
+    margin: 20px auto;
+    padding-top: 50px;
     /* debug */
-    background-color: orange;
     min-height: 540px;
 }
 
+#jumbotron-section h1 {
+    font-size: 55px;
+}
+
+#jumbotron-container {
+    display: flex;
+    /* debug
+    min-height: 300px;
+    background-color: orange; */
+}
 
 
+#jumbotron-text {
+    padding-top: 40px;
+    width: 40%;
+    flex-direction: column;
+}
 
+#jumbotron-text button {
+    margin-top: 20px;
+    display: block;
+}
+
+#jumbotron-text a {
+    margin-top: 15px;
+    display: block;
+}
+
+#jumbotron-text i {
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+#jumbotron-section img {
+    width: 60%;
+    padding-top: 40px;
+}
 
 
 
