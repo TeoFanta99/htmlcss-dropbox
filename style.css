@@ -114,19 +114,48 @@ main {
     width: 60%;
 }
 
-#box-paragraph {
 
-}
 
 #operations-section {
-    
+    width: 70%;
+    margin-top: 10px;
+    /* debug */
+    background-color: orange;
+    min-height: 400px;
 }
 
+#operations-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* debug */
+    background-color: aqua;
+    min-height: 400px;
+}
 
+.operation {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% / 3) - 10px);
+    margin-top: 10px;
+    /* debug */
+    background-color: red;
+    min-height: 150px;
+}
 
+#partners-section {
+    width: 100%;
+    /* debug */
+    min-height: 300px;
+    background-color: lightgreen;
+}
 
-
-
+#partners-description {
+    width: 70%;
+    margin: 10px auto;
+    /* debug */
+}
 
 
 /* ------------------------- footer ------------------------- */
