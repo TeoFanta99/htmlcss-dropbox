@@ -16,37 +16,77 @@ html, body {
 /* ------------------------- header ------------------------- */
 header {
     width: 100%;
-    /* debug */
+    /* debug
     min-height: 600px;
-    background-color: rgb(99, 234, 255);
+    background-color: rgb(99, 234, 255); */
 }
 
 nav {
     width: 100%;
     display: flex;
-    /* debug */
     min-height: 60px;
-    background-color: rgb(232, 232, 232);
+    /* debug
+    background-color: rgb(232, 232, 232); */
 }
 
 #left-nav {
     width: 50%;
     display: flex;
     justify-content: flex-start;
-    /* debug */
+    align-items: center;
+    /* debug
     background-color: yellow;
-    min-height: 60px;
+    min-height: 60px; */
 }
 
 #right-nav {
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    /* debug */
+    align-items: center;
+    /* debug
     background-color: rgb(153, 250, 153);
-    height: 60px;
+    height: 60px; */
 }
 
+
+#left-nav img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header ul {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#right-nav button {
+    margin-right: 10px;
+}
+
+.button {
+    background-color: #0861FF;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.short-button {
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
 #jumbotron-section {
     width: 100%;
