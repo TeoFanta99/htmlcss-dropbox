@@ -58,6 +58,72 @@ nav {
 
 
 /* -------------------------- main -------------------------- */
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* debug */
+    min-height: 600px;
+    background-color: rgb(255, 156, 222);
+}
+
+#choose-plan {
+    width: 70%;
+    /* debug */
+    min-height: 600px;
+    background-color: rgb(255, 112, 112);
+}
+
+#plans-container {
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     /* debug */
+    min-height: 400px;
+    background-color: bisque;
+}
+
+.first-three-plans {
+    width: calc((100% / 3) - 10px);
+    margin: 0 auto;
+    /* debug */
+    min-height: 300px;
+    background-color: rgb(112, 211, 247);
+}
+
+#last-plan {
+    width: calc(100% - 10px);
+    /* debug */
+    min-height: 200px;
+    background-color: rgb(105, 241, 105);
+}
+
+#find-a-partner {
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    /* debug */
+    min-height: 200px;
+    background-color: darkviolet;
+}
+
+#find-a-partner > img {
+    width: 60%;
+}
+
+#box-paragraph {
+
+}
+
+#operations-section {
+    
+}
+
+
+
 
 
 
