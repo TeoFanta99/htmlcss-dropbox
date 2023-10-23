@@ -9,6 +9,10 @@
     font-size: 14px;
 }
 
+html, body {
+    height: 100%;
+}
+
 /* ------------------------- header ------------------------- */
 header {
     width: 100%;
@@ -155,7 +159,34 @@ main {
     width: 70%;
     margin: 10px auto;
     /* debug */
+    background-color: yellow;
+    min-height: 100px;
 }
+
+#big-logos-container {
+    width: 100%;
+    /* debug */
+    background-color: cornsilk;
+    min-height: 300px;
+}
+
+#left {
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    /* debug */
+    min-height: 300px;
+}
+
+.logo {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    /* debug */
+    border: 1px solid black;
+}
+
+
+
 
 
 /* ------------------------- footer ------------------------- */
