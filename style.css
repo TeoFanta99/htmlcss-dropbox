@@ -7,6 +7,9 @@
 
 :root {
     font-size: 14px;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -160,9 +163,9 @@ main {
 
 #choose-plan {
     width: 70%;
-    /* debug */
+    /* debug
     min-height: 600px;
-    background-color: rgb(255, 112, 112);
+    background-color: rgb(255, 112, 112); */
 }
 
 #choose-plan h2 {
@@ -193,6 +196,7 @@ main {
 .first-three-plans {
     width: calc((100% / 3) - 10px);
     margin: 0 auto;
+    border: 1px solid black;
     /* debug */
     min-height: 300px;
     background-color: rgb(112, 211, 247);
@@ -209,6 +213,7 @@ main {
 .type-of-plan i {
     margin-right: 5px;
 }
+
 
 .plans-informations {
     width: 85%;
@@ -266,10 +271,11 @@ main {
 
 #last-plan {
     width: calc(100% - 10px);
-    /* debug */
-    min-height: 200px;
-    background-color: rgb(105, 241, 105);
+    border: 1px solid black;
     margin-top: 30px;
+    /* debug
+    min-height: 200px;
+    background-color: rgb(105, 241, 105); */
 }
 
 #last-plan-container {
@@ -328,14 +334,20 @@ main {
     border: 1px solid black;
 }
 
-
 #operations-section {
     width: 70%;
     margin: 10px;
-    /* debug */
+    /* debug
     background-color: orange;
-    min-height: 400px;
+    min-height: 400px; */
 }
+
+#operations-section h2 {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
 
 #operations-container {
     width: 70%;
@@ -343,35 +355,57 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
-    /* debug */
+    /* debug
     background-color: aqua;
-    min-height: 400px;
+    min-height: 400px; */
 }
 
 .operation {
     display: flex;
     flex-direction: column;
     width: calc((100% / 3) - 10px);
-    margin-top: 10px;
-    /* debug */
+    margin-top: 33px;
+    /* debug
     background-color: red;
-    min-height: 150px;
+    min-height: 150px; */
+}
+
+.operation h3 {
+    margin-top: 10px;
+}
+
+.operation p {
+    margin-top: 10px;
 }
 
 #partners-section {
     width: 100%;
-    /* debug */
+    margin-top: 80px;
+    /* debug
     min-height: 300px;
-    background-color: lightgreen;
+    background-color: lightgreen; */
 }
 
 #partners-description {
     width: 70%;
     margin: 10px auto;
-    /* debug */
+    /* debug
     background-color: yellow;
-    min-height: 100px;
+    min-height: 100px; */
 }
+
+#partners-description h2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#partners-description a {
+    width: 70%;
+    margin: 30px auto;
+    display: block;
+    padding-bottom: 40px;
+}
+
 
 #big-logos-container {
     width: 100%;
@@ -393,6 +427,16 @@ main {
     width: 50%;
     padding-top: 50%;
     color: white;
+    position: relative;
+}
+
+.logo img {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(78deg) brightness(105%) contrast(101%);
 }
 
 #designit {
@@ -427,10 +471,34 @@ main {
     background-color: #FFD830;
 }
 
+
+
 #middle {
     display: flex;
     flex-direction: column;
 }
+
+#middle img {
+    width: 35%;
+    margin: 25px;
+}
+
+#middle hr {
+    width: 20%;
+    margin-left: 25px;
+}
+
+#middle p {
+    width: 90%;
+    margin: 25px auto;
+}
+
+#middle span {
+    margin-top: 25px;
+    margin-left: 25px; 
+}
+
+
 
 #free-trial-section {
     background-color: #B4D0E7;
@@ -441,7 +509,8 @@ main {
 
 #free-trial-section-container {
     width: 70%;
-    margin: 30px auto;
+    margin: 70px auto;
+    display: flex;
     /* debug */
 }
 
@@ -456,12 +525,44 @@ main {
     padding-left: 200px;
 }
 
+#right-free-trial button {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 12px 35px;
+}
+
 #faq-section {
     width: 100%;
     background-color: white;
     /* debug */
     min-height: 300px;
+    background-color: yellow;
 }
+
+#faq-container {
+    width: 70%;
+    margin: 80px auto;
+    /* debug */
+    background-color: rgb(145, 241, 145);
+    min-height: 200px;
+}
+
+#faq-container h2 {
+    margin-bottom: 25px;
+}
+
+#faq-container hr {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#faq-container span {
+    margin-top: 25px;
+    display: block;
+
+}
+
 
 
 /* ------------------------- footer ------------------------- */
