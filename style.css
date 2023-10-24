@@ -163,6 +163,7 @@ main {
 
 #choose-plan {
     width: 70%;
+    margin-top: 30px;
     /* debug
     min-height: 600px;
     background-color: rgb(255, 112, 112); */
@@ -535,32 +536,56 @@ main {
 #faq-section {
     width: 100%;
     background-color: white;
-    /* debug */
+    /* debug
     min-height: 300px;
-    background-color: yellow;
+    background-color: yellow; */
 }
 
-#faq-container {
+#faq-big-container {
     width: 70%;
     margin: 80px auto;
-    /* debug */
+    /* debug
     background-color: rgb(145, 241, 145);
-    min-height: 200px;
+    min-height: 200px; */
 }
 
-#faq-container h2 {
+#faq-big-container h2 {
     margin-bottom: 25px;
 }
 
-#faq-container hr {
+#faq-container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
     width: 100%;
-    margin-top: 25px;
+    /* debug
+    min-height: 150px;
+    background-color: orange; */
 }
 
-#faq-container span {
-    margin-top: 25px;
-    display: block;
+.faq-row {
+    display: flex;
+    border-bottom: solid 1px black;
+    padding: 25px 0;
+}
 
+.faq {
+    width: 60%;
+}
+
+.expand-button {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+.expand-button i {
+    margin-right: 20px;
+}
+
+.last-faq-row {
+    border-bottom: none;
 }
 
 
@@ -571,8 +596,8 @@ footer {
     color: white;
     width: 100%;
     justify-content: center;
-    /* debug */
-    min-height: 300px;
+    /* debug
+    min-height: 300px; */
 }
 
 #footer-columns-container {
@@ -587,9 +612,9 @@ footer {
     display: flex;
     flex-direction: column;
     width: calc((100% / 5) - 10px);
-    /* debug */
+    /* debug
     background-color: lightgreen;
-    min-height: 200px;
+    min-height: 200px; */
 }
 
 .footer-column > h3 {
@@ -615,6 +640,7 @@ footer {
     width: 10%;
     margin-left: 130px;
     margin-top: 40px;
+    padding-bottom: 30px;
 }
 
 #footer-bottom > hr {
